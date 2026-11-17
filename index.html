@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CampusFest '26 — Dayananda sagar university four-day festival of technology, culture, sport, careers and arts. Browse events, check the schedule and register as a student.">
+  <title>CampusFest '26 — Dayananda sagar university</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=4">
+  <link rel="stylesheet" href="chatbot.css?v=3">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"><span id="scrollBar"></span></div>
+
+  <!-- ======================================================
+       Header
+       ====================================================== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none">
+            <path d="M12 2.5 14.4 9l6.6 2.4-6.6 2.4L12 20.5 9.6 13.8 3 11.4 9.6 9 12 2.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+            <circle cx="12" cy="11.4" r="1.7" fill="currentColor"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">Campus<em>Fest</em> '26</span>
+          <span class="brand-sub">Dayananda sagar university</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="primaryNav" aria-label="Main navigation">
+        <a class="nav-link is-active" href="#home">Home</a>
+        <a class="nav-link" href="#events">Events</a>
+        <a class="nav-link" href="#schedule">Schedule</a>
+        <a class="nav-link" href="#register">Register</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="admin.html">Dashboard</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-dark btn-sm header-cta" href="#register">
+          Register
+          <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12M11 5l5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="primaryNav" aria-label="Open menu">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ====================================================
+         Hero
+         ==================================================== -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow hero-eyebrow"><span class="live-dot" aria-hidden="true"></span>18–21 November 2026 · registrations open</p>
+          <h1>Four days.<br>One campus.<br><em>Every talent.</em></h1>
+          <p class="hero-lede">CampusFest is dayananda sagar College's biggest student-run festival — a hackathon, a cultural night, courts, careers, photo walks and live music. Browse what's on, reserve your seat and get your student pass in under a minute.</p>
+          <div class="hero-actions">
+            <a class="btn btn-dark" href="#events">
+              Explore events
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12M11 5l5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a class="btn btn-outline" href="#register">Register now</a>
+          </div>
+          <button class="hero-guide" type="button" data-chat-open>
+            <span class="hero-guide-spark" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 2.5 14.4 9l6.6 2.4-6.6 2.4L12 20.5 9.6 13.8 3 11.4 9.6 9 12 2.5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+            </span>
+            Not sure what to pick? <strong>Ask the fest guide</strong>
+          </button>
+          <div class="hero-stats">
+            <div class="stat"><strong>08</strong><span>Events</span></div>
+            <div class="stat"><strong>16</strong><span>Sessions</span></div>
+            <div class="stat"><strong>04</strong><span>Days</span></div>
+            <div class="stat"><strong>699</strong><span>Seats</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <span class="hero-orbit orbit-one"></span>
+          <span class="hero-orbit orbit-two"></span>
+
+          <div class="sticker sticker-lime">
+            <span>Festival</span>
+            <strong>4 days<br>of fun</strong>
+          </div>
+
+          <div class="pass">
+            <div class="pass-head">
+              <span>CampusFest '26</span>
+              <span class="pass-type">Student pass</span>
+            </div>
+            <div class="pass-body">
+              <span class="pass-kicker">Admit one · all access</span>
+              <div class="pass-name">Campus<br>Pass</div>
+              <div class="pass-details">
+                <div><span>Date</span><strong>18 Nov</strong></div>
+                <div><span>Entry</span><strong>Free</strong></div>
+                <div><span>Campus</span><strong>dayananda sagar university</strong></div>
+              </div>
+            </div>
+            <div class="pass-stub">
+              <span class="pass-barcode"></span>
+              <span class="pass-serial">CF26 · Student entry · Non-transferable</span>
+            </div>
+          </div>
+
+          <div class="sticker sticker-coral">
+            <span>Seats</span>
+            <strong>699</strong>
+            <span>available</span>
+          </div>
+
+          <div class="countdown-card">
+            <span class="countdown-label">Doors<br>open in</span>
+            <div class="countdown" id="countdown" role="timer" aria-live="off">
+              <div><strong data-unit="days">00</strong><span>Days</span></div>
+              <div><strong data-unit="hours">00</strong><span>Hours</span></div>
+              <div><strong data-unit="minutes">00</strong><span>Mins</span></div>
+              <div><strong data-unit="seconds">00</strong><span>Secs</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================
+         Ticker
+         ==================================================== -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>CodeStorm Hackathon</span><i>✳</i>
+        <span>Neon Nights</span><i>✳</i>
+        <span>Hoops 3v3</span><i>✳</i>
+        <span>AI &amp; Your Career</span><i>✳</i>
+        <span>Lens &amp; Light</span><i>✳</i>
+        <span>Startup Pitch Night</span><i>✳</i>
+        <span>Battle of the Bands</span><i>✳</i>
+        <span>Campus Run 5K</span><i>✳</i>
+        <span>Free for students</span><i>✳</i>
+        <span>CodeStorm Hackathon</span><i>✳</i>
+        <span>Neon Nights</span><i>✳</i>
+        <span>Hoops 3v3</span><i>✳</i>
+        <span>AI &amp; Your Career</span><i>✳</i>
+        <span>Lens &amp; Light</span><i>✳</i>
+        <span>Startup Pitch Night</span><i>✳</i>
+        <span>Battle of the Bands</span><i>✳</i>
+        <span>Campus Run 5K</span><i>✳</i>
+        <span>Free for students</span><i>✳</i>
+      </div>
+    </div>
+
+    <!-- ====================================================
+         Events
+         ==================================================== -->
+    <section class="section events" id="events">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span>What's on</p>
+            <h2>Pick your <em>kind of chaos.</em></h2>
+          </div>
+          <p class="section-lede">Eight flagship events across four days, all free for enrolled students. Filter by what you love, open the details and reserve a seat before it fills.</p>
+        </div>
+
+        <div class="filter-row reveal">
+          <div class="filters" role="group" aria-label="Filter events by category">
+            <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">All events</button>
+            <button class="filter" type="button" data-filter="technology" aria-pressed="false">Technology</button>
+            <button class="filter" type="button" data-filter="culture" aria-pressed="false">Culture</button>
+            <button class="filter" type="button" data-filter="sports" aria-pressed="false">Sports</button>
+            <button class="filter" type="button" data-filter="careers" aria-pressed="false">Careers</button>
+            <button class="filter" type="button" data-filter="arts" aria-pressed="false">Arts</button>
+          </div>
+          <span class="result-count" id="resultCount">8 events</span>
+        </div>
+
+        <div class="event-grid" id="eventGrid"></div>
+        <p class="empty-state" id="emptyState" hidden>No events in this category yet — try another filter.</p>
+      </div>
+    </section>
+
+    <!-- ====================================================
+         Schedule
+         ==================================================== -->
+    <section class="section schedule" id="schedule">
+      <div class="container">
+        <div class="section-head section-head-light reveal">
+          <div>
+            <p class="eyebrow eyebrow-light"><span class="live-dot" aria-hidden="true"></span>The running order</p>
+            <h2>Four days,<br><em>mapped out.</em></h2>
+          </div>
+          <p class="section-lede">From the opening ceremony to the closing awards, here is where to be and when. Pick a day to see the full line-up.</p>
+        </div>
+
+        <div class="schedule-shell reveal">
+          <div class="day-tabs" role="tablist" aria-label="Schedule by day">
+            <button class="day-tab is-active" type="button" role="tab" data-day="day1" id="day1-tab" aria-controls="day1-panel" aria-selected="true">
+              <span>Wed 18 Nov</span><strong>Day 01</strong>
+            </button>
+            <button class="day-tab" type="button" role="tab" data-day="day2" id="day2-tab" aria-controls="day2-panel" aria-selected="false" tabindex="-1">
+              <span>Thu 19 Nov</span><strong>Day 02</strong>
+            </button>
+            <button class="day-tab" type="button" role="tab" data-day="day3" id="day3-tab" aria-controls="day3-panel" aria-selected="false" tabindex="-1">
+              <span>Fri 20 Nov</span><strong>Day 03</strong>
+            </button>
+            <button class="day-tab" type="button" role="tab" data-day="day4" id="day4-tab" aria-controls="day4-panel" aria-selected="false" tabindex="-1">
+              <span>Sat 21 Nov</span><strong>Day 04</strong>
+            </button>
+          </div>
+          <div class="day-panel is-active" data-panel="day1" id="day1-panel" role="tabpanel" aria-labelledby="day1-tab"></div>
+          <div class="day-panel" data-panel="day2" id="day2-panel" role="tabpanel" aria-labelledby="day2-tab" hidden></div>
+          <div class="day-panel" data-panel="day3" id="day3-panel" role="tabpanel" aria-labelledby="day3-tab" hidden></div>
+          <div class="day-panel" data-panel="day4" id="day4-panel" role="tabpanel" aria-labelledby="day4-tab" hidden></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================
+         Registration
+         ==================================================== -->
+    <section class="section register" id="register">
+      <div class="container register-grid">
+        <div class="register-intro reveal">
+          <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span>Registration</p>
+          <h2>One form.<br><em>One pass.</em></h2>
+          <p class="register-lede">Reserve your seat in under a minute. Your pass is saved in this browser, so you can print it or add the event to your calendar right away.</p>
+
+          <ol class="steps">
+            <li>
+              <span class="step-num">01</span>
+              <div><strong>Choose an event</strong><p>Pick any open event from the list. Seats update live as students register.</p></div>
+            </li>
+            <li>
+              <span class="step-num">02</span>
+              <div><strong>Tell us who you are</strong><p>Your name, student ID, email and year of study — nothing more.</p></div>
+            </li>
+            <li>
+              <span class="step-num">03</span>
+              <div><strong>Get your student pass</strong><p>Your pass appears instantly. Print it or download a calendar reminder.</p></div>
+            </li>
+          </ol>
+
+          <div class="help-card">
+            <span class="help-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z" stroke="currentColor" stroke-width="1.6"/><path d="M9.6 9.2a2.5 2.5 0 1 1 3.4 2.3c-.7.3-1 .9-1 1.7v.3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="12" cy="17" r="1" fill="currentColor"/></svg>
+            </span>
+            <div>
+              <strong>Need help or a team?</strong>
+              <p>Email <a href="mailto:hello@dsu.edu.in">hello@dsu.edu.in</a> and the student council will match you with a team or answer any question.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-card reveal" id="formCard">
+          <div class="form-head">
+            <div>
+              <span class="form-kicker">Student registration</span>
+              <h3>Reserve your spot</h3>
+            </div>
+            <span class="form-badge">Free entry</span>
+          </div>
+
+          <form id="registrationForm" novalidate>
+            <div class="form-alert" id="formAlert" role="alert" hidden></div>
+
+            <div class="field-row">
+              <div class="field">
+                <label for="fullName">Full name <span class="req">*</span></label>
+                <input id="fullName" name="fullName" type="text" autocomplete="name" placeholder="Aarav Sharma" required>
+                <p class="field-error" id="fullNameError"></p>
+              </div>
+              <div class="field">
+                <label for="studentId">Student ID <span class="req">*</span></label>
+                <input id="studentId" name="studentId" type="text" placeholder="NF22CS104" required>
+                <p class="field-error" id="studentIdError"></p>
+              </div>
+            </div>
+
+            <div class="field-row">
+              <div class="field">
+                <label for="email">College email <span class="req">*</span></label>
+                <input id="email" name="email" type="email" autocomplete="email" placeholder="you@northfield.edu" required>
+                <p class="field-error" id="emailError"></p>
+              </div>
+              <div class="field">
+                <label for="phone">Phone <span class="req">*</span></label>
+                <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="+91 98765 43210" required>
+                <p class="field-error" id="phoneError"></p>
+              </div>
+            </div>
+
+            <div class="field-row">
+              <div class="field">
+                <label for="year">Year of study <span class="req">*</span></label>
+                <select id="year" name="year" required>
+                  <option value="">Select your year</option>
+                  <option value="1st year">1st year</option>
+                  <option value="2nd year">2nd year</option>
+                  <option value="3rd year">3rd year</option>
+                  <option value="4th year">4th year</option>
+                  <option value="Postgraduate">Postgraduate</option>
+                </select>
+                <p class="field-error" id="yearError"></p>
+              </div>
+              <div class="field">
+                <label for="eventSelect">Event <span class="req">*</span></label>
+                <select id="eventSelect" name="eventId" required>
+                  <option value="">Select an event</option>
+                </select>
+                <p class="field-error" id="eventSelectError"></p>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="notes">Anything we should know? <span class="optional">(optional)</span></label>
+              <textarea id="notes" name="notes" rows="2" placeholder="Team members, accessibility needs, dietary requirements…"></textarea>
+            </div>
+
+            <div class="check-field">
+              <label class="check" for="terms">
+                <input id="terms" name="terms" type="checkbox" required>
+                <span>I agree to the <a href="#about">student code of conduct</a> and understand that my pass is personal and non-transferable.</span>
+              </label>
+              <p class="field-error" id="termsError"></p>
+            </div>
+
+            <button class="btn btn-dark btn-block btn-submit" type="submit">
+              Confirm registration
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12M11 5l5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <p class="form-footnote">
+              <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><rect x="3" y="7" width="10" height="7" rx="1.6" stroke="currentColor" stroke-width="1.3"/><path d="M5.5 7V5.4a2.5 2.5 0 0 1 5 0V7" stroke="currentColor" stroke-width="1.3"/></svg>
+              Stored only in this browser. No account needed.
+            </p>
+          </form>
+
+          <div class="success" id="successPanel" tabindex="-1" role="status" aria-live="polite" hidden>
+            <div class="success-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M4 12.5 9.5 18 20 6.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <p class="eyebrow">You're on the list</p>
+            <h3>See you there, <span id="successFirstName">friend</span>.</h3>
+            <p class="success-lede">Your seat is confirmed. Show this pass at the door along with your student ID. A copy has been saved in this browser.</p>
+
+            <div class="mini-pass">
+              <div class="mini-pass-top">
+                <span>CampusFest '26 · Student pass</span>
+                <span class="mini-pass-status">Confirmed</span>
+              </div>
+              <div class="mini-pass-body">
+                <div class="mini-pass-event" id="successEvent">Event name</div>
+                <div class="mini-pass-name" id="successName">Student name</div>
+                <div class="mini-pass-grid">
+                  <div><span>When</span><strong id="successWhen">Date</strong></div>
+                  <div><span>Where</span><strong id="successWhere">Venue</strong></div>
+                  <div><span>Pass ID</span><strong id="successId">CF26-XXXXXX</strong></div>
+                </div>
+              </div>
+              <div class="mini-pass-stub">
+                <span class="pass-barcode"></span>
+                <span id="successStudentId">NF00AA000</span>
+              </div>
+            </div>
+
+            <div class="success-actions">
+              <button class="btn btn-dark btn-sm" id="calendarBtn" type="button">
+                <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><rect x="3" y="4.5" width="14" height="12" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M3 8.5h14M7 3v3M13 3v3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+                Add to calendar
+              </button>
+              <button class="btn btn-outline btn-sm" id="printBtn" type="button">
+                <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M5.5 7V3.5h9V7M5.5 14H3.5v-5h13v5H14.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><rect x="5.5" y="11.5" width="9" height="5" stroke="currentColor" stroke-width="1.6"/></svg>
+                Print pass
+              </button>
+              <button class="btn btn-ghost btn-sm" id="anotherBtn" type="button">Register another</button>
+            </div>
+            <p class="success-note">Want to see everyone who has registered? Open the <a href="admin.html">organiser dashboard</a> for the student list and participation analysis.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================
+         About, contact & FAQ
+         ==================================================== -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span>Made by students</p>
+            <h2>Run by the student council,<br><em>for every student.</em></h2>
+            <p>CampusFest began in 2026 as a one-day hackathon in Block C. Seven years later it is a four-day festival with 16 sessions, 699 seats and a stage big enough for eight student bands. Every event is organised by students, free to attend and open to every year group and department.</p>
+            <p>Registration is intentionally simple: no account, no payment, no app. Pick an event, fill in six fields and your pass is ready. Organisers can then see the live student list and participation numbers in the dashboard.</p>
+
+            <div class="organiser">
+              <span class="organiser-mark" aria-hidden="true">SAC</span>
+              <div>
+                <strong>Student Activities Council</strong>
+                <span>Dayananda sagar university · fest@dsu.edu.in</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="reveal">
+            <div class="contact-grid">
+              <a class="contact-card" href="mailto:hello@campusfest.dsu.edu.in">
+                <span class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2.4" stroke="currentColor" stroke-width="1.6"/><path d="m4 7 8 6 8-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+                <span class="contact-label">Email</span>
+                <strong>hello@campusfest.dayananda sagar university.edu</strong>
+                <span class="contact-note">Replies within one working day.</span>
+              </a>
+
+              <a class="contact-card" href="tel:+919876543210">
+                <span class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none"><path d="M7 3.5h3l1.4 4-2 1.4a12 12 0 0 0 5.7 5.7l1.4-2 4 1.4v3A2.5 2.5 0 0 1 18 19.5C10.5 19 5 13.5 4.5 6A2.5 2.5 0 0 1 7 3.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+                </span>
+                <span class="contact-label">Help desk</span>
+                <strong>+91 98765 43210</strong>
+                <span class="contact-note">9 AM – 6 PM, Monday to Saturday.</span>
+              </a>
+
+              <div class="contact-card">
+                <span class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none"><path d="M12 21s7-6.2 7-11.4A7 7 0 0 0 5 9.6C5 14.8 12 21 12 21Z" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="9.4" r="2.5" stroke="currentColor" stroke-width="1.6"/></svg>
+                </span>
+                <span class="contact-label">Festival hub</span>
+                <strong>Student Centre,dayananda sagar university</strong>
+                <span class="contact-note">Collect lost passes and team bibs here.</span>
+              </div>
+
+              <div class="contact-card">
+                <span class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.6"/><path d="M12 7.5V12l3 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+                </span>
+                <span class="contact-label">Office hours</span>
+                <strong>Mon–Sat · 9 AM – 6 PM</strong>
+                <span class="contact-note">Walk-ins welcome during fest week.</span>
+              </div>
+
+              <div class="contact-card contact-card-wide">
+                <span class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none"><path d="M4 12h16M12 4v16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.6"/></svg>
+                </span>
+                <span class="contact-label">Dashboard</span>
+                <strong>Looking for the student list and participation analysis?</strong>
+                <span class="contact-note">Open the <a href="admin.html">organiser dashboard →</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-wrap">
+          <div class="faq-head reveal">
+            <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span>Good to know</p>
+            <h2>Questions,<br><em>answered.</em></h2>
+          </div>
+          <div class="faq-list reveal">
+            <details class="faq" open>
+              <summary>Do I need to pay or create an account?<span class="faq-plus" aria-hidden="true"></span></summary>
+              <p>No. Every event is free for currently enrolled students and registration only needs your name, student ID, email, phone and year. There is no payment, login or app download.</p>
+            </details>
+            <details class="faq">
+              <summary>Can I register for more than one event?<span class="faq-plus" aria-hidden="true"></span></summary>
+              <p>Yes — and you should. Each registration creates a separate pass, so register once per event. Use the “Register another” button on your pass to start the next one.</p>
+            </details>
+            <details class="faq">
+              <summary>Where is my registration stored?<span class="faq-plus" aria-hidden="true"></span></summary>
+              <p>In your own browser's local storage. Nothing is uploaded to a server. That means your pass stays on this device and the organiser dashboard shows only registrations made in this browser.</p>
+            </details>
+            <details class="faq">
+              <summary>What happens if an event is full?<span class="faq-plus" aria-hidden="true"></span></summary>
+              <p>Full events are marked and cannot be selected. Seats update as people register, so check back — a cancelled registration releases a seat immediately.</p>
+            </details>
+            <details class="faq">
+              <summary>How do I know which event to pick?<span class="faq-plus" aria-hidden="true"></span></summary>
+              <p>Tap “Ask the fest guide” in the corner (or the link under the hero buttons). Tell it what you enjoy — coding, music, sport, careers, photography — and it will suggest an event, answer questions about times, venues, seats and what to bring, and pre-fill the registration form when you choose one.</p>
+            </details>
+            <details class="faq">
+              <summary>How do I get a team for the hackathon or 3v3?<span class="faq-plus" aria-hidden="true"></span></summary>
+              <p>Register as an individual and add a note in the form, or email the student council. We match solo builders and players with teams in the week before the festival.</p>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======================================================
+       Footer
+       ====================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <a class="brand brand-light" href="#home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M12 2.5 14.4 9l6.6 2.4-6.6 2.4L12 20.5 9.6 13.8 3 11.4 9.6 9 12 2.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+              <circle cx="12" cy="11.4" r="1.7" fill="currentColor"/>
+            </svg>
+          </span>
+          <span class="brand-text">
+            <span class="brand-name">Campus<em>Fest</em> '26</span>
+            <span class="brand-sub">Dayananda sagar university</span>
+          </span>
+        </a>
+        <p class="footer-tag">Four days. One campus.<br><em>See you there.</em></p>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="footerYear">2026</span> CampusFest · Student Activities Council</span>
+        <div class="footer-links">
+          <a href="#events">Events</a>
+          <a href="#schedule">Schedule</a>
+          <a href="#register">Register</a>
+          <a href="admin.html">Dashboard</a>
+          <a href="mailto:hello@campusfest.dsu.edu">Contact </a>
+        </div>
+        <span class="footer-note">A student-run demo festival. Data stays in your browser.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ======================================================
+       Event dialog & toast
+       ====================================================== -->
+  <dialog class="event-dialog" id="eventDialog" aria-labelledby="dialogTitle">
+    <div class="dialog-inner">
+      <button class="dialog-close" id="dialogClose" type="button" aria-label="Close event details">
+        <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m5 5 10 10M15 5 5 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+      <div id="dialogContent"></div>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- ======================================================
+       Festival guide chat assistant
+       ====================================================== -->
+  <div class="chatbot">
+    <button class="chat-launcher" id="chatLauncher" type="button" aria-expanded="false" aria-controls="chatPanel" aria-haspopup="dialog">
+      <span class="chat-launcher-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M12 2.5 14.4 9l6.6 2.4-6.6 2.4L12 20.5 9.6 13.8 3 11.4 9.6 9 12 2.5Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="12" cy="11.4" r="1.5" fill="currentColor"/></svg>
+      </span>
+      <span class="chat-launcher-text">
+        <strong>Ask the fest guide</strong>
+        <small>Find your event in 30 seconds</small>
+      </span>
+      <span class="chat-launcher-badge" aria-hidden="true">AI</span>
+    </button>
+
+    <section class="chat-panel" id="chatPanel" role="dialog" aria-modal="false" aria-labelledby="chatTitle" hidden>
+      <header class="chat-head">
+        <div class="chat-identity">
+          <span class="chat-avatar" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 2.5 14.4 9l6.6 2.4-6.6 2.4L12 20.5 9.6 13.8 3 11.4 9.6 9 12 2.5Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="12" cy="11.4" r="1.5" fill="currentColor"/></svg>
+          </span>
+          <div>
+            <strong id="chatTitle">Festival guide</strong>
+            <span><span class="chat-status-dot" aria-hidden="true"></span>Knows all 8 events · offline demo</span>
+          </div>
+        </div>
+        <button class="chat-close" id="chatClose" type="button" aria-label="Close festival guide">
+          <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m5 5 10 10M15 5 5 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </button>
+      </header>
+
+      <div class="chat-log" id="chatLog" role="log" aria-live="polite" aria-relevant="additions" tabindex="0"></div>
+      <div class="chat-quick" id="chatQuick" role="group" aria-label="Suggested replies" hidden></div>
+
+      <form class="chat-form" id="chatForm">
+        <label class="sr-only" for="chatInput">Ask about events</label>
+        <input id="chatInput" type="text" autocomplete="off" placeholder="Ask about an event, or what suits you…" maxlength="240">
+        <button class="chat-send" type="submit" aria-label="Send message">
+          <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 10h13M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </form>
+      <p class="chat-foot">Offline demo assistant · answers use this site's event data.</p>
+    </section>
+  </div>
+
+  <script src="app.js?v=2"></script>
+  <script src="chatbot.js?v=5"></script>
+</body>
+</html>
+ 
